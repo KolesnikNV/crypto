@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "crypto"
+version = "0.1.0"
+description = ""
+authors = ["Nikita Kolesnik <118283668+KolesnikNV@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ruff = "^0.1.6"
+icecream = "^2.1.3"
+hdwallet = "^2.2.1"
+bit = "^0.8.0"
+tronpy = "^0.4.0"
+black = "^23.11.0"
+web3 = "^6.11.3"
+eth-tester = "^0.10.0b1"
+bybit = "^0.2.12"
+python-bitcoinlib = "^0.12.2"
+psycopg2-binary = "^2.9.9"
+bitcoinlib = "^0.6.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
